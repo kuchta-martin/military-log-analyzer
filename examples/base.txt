@@ -1,0 +1,4 @@
+gate headquarters 5
+headquarters lab 10
+headquarters armory 8
+lab armory 3

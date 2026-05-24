@@ -1,0 +1,42 @@
+# ── CMake build artifacts ────────────────────────────────────────────────────
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# ── Compiled binaries ────────────────────────────────────────────────────────
+mil-analyzer
+*.exe
+*.out
+*.app
+
+# ── IDEs ─────────────────────────────────────────────────────────────────────
+# CLion
+.idea/
+
+# VS Code
+.vscode/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+
+# ── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Linux ────────────────────────────────────────────────────────────────────
+*~
+.nfs*
+
+# ── Progtest test data (root-level only, not tracked) ────────────────────────
+# Files under examples/ are intentionally committed.
+/base.txt
+/in*.log
