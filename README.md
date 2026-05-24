@@ -69,7 +69,7 @@ Compiled with `-Wall -Wextra -Wpedantic -Wconversion -Wshadow` — **zero warnin
 ### Manual (no CMake)
 
 ```bash
-clang++ -std=c++17 -Wall -Wextra -Wpedantic -Wconversion -Iinclude \
+clang++ -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Iinclude \
         src/main.cpp src/mil_base.cpp src/visitor_log.cpp -o mil-analyzer
 ```
 
